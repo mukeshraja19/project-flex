@@ -1,8 +1,7 @@
+@media(min-width:468px){
 .box{
         display: flex;
         margin: auto;
-        width: 50%;
-        height: 50%;
         text-align: center;
         justify-content: space-around;
 }
@@ -12,6 +11,7 @@
         color: white;
         background-color: #1F2937;
 }
+}
 .box-1{
     width: 40%;
     
@@ -20,8 +20,10 @@
     background-color: #3882F6;
     color: white;   
 }
+@media(min-width:468px){
 .box2{
     text-align: center;
+}
 }
 .center{
     display: flex;
